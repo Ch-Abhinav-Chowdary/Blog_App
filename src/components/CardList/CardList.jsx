@@ -1,9 +1,12 @@
 import React from 'react'
 import styles from "./CardList.module.css";
+import Pagination from '../pagination/Pagination';
 
 function CardList() {
   return (
-    <div>CardList</div>
+    <div className={styles.container}>CardList
+      <Pagination />
+    </div>
   )
 }
 
