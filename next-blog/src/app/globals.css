@@ -23,6 +23,13 @@ a {
 }
 
 .dark {
+    --bg: white;
+    --textColor: black;
+    --softBg: #f0f0f0;
+    --softTextColor: #626262;
+}
+
+.light {
     --bg: #0f172a;
     --textColor: #ddd;
     --softbg: #1f273a;
