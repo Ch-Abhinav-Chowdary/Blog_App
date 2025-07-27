@@ -5,10 +5,10 @@
 .burger {
     width: 20px;
     height: 16px;
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     cursor: pointer;
+    display: none;
 }
 
 .line {
@@ -42,4 +42,10 @@
 .menu a:hover {
     background-color: var(--softTextColor);
     color: var(--bg);
+}
+
+@media screen and (max-width: 640px) {
+    .burger {
+        display: flex;
+    }
 }
